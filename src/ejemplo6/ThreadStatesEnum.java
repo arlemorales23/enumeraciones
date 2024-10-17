@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.function.Consumer;
 
 public enum ThreadStatesEnum implements Closeable {
-    START(1){
+    START(2322){
         @Override
         public String toString(){
             return "START implementation. Priority="+getPriority();
@@ -40,7 +40,6 @@ public enum ThreadStatesEnum implements Closeable {
     public abstract String getDetail();
     //Enum constructors should always be private.
     private ThreadStatesEnum(int i){
-
         priority = i;
     }
 

@@ -24,7 +24,7 @@ public class Test {
         // Color with given constant.
         // Uncommenting second line causes exception
         // IllegalArgumentException
-        System.out.println(Color.valueOf("RED"));
+        System.out.println(Color.valueOf("GREEN"));
         // System.out.println(Color.valueOf("WHITE"));
     }
 }

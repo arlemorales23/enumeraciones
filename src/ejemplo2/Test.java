@@ -16,6 +16,7 @@ public class Test {
 
     // Constructor
     public Test(Day day) {
+
         this.day = day;
     }
 

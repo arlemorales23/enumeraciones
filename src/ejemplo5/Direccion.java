@@ -1,8 +1,11 @@
 package ejemplo5;
 enum Direccion {
-    NORTE("N", "Armenia", 12), SUR("S", "Armenia", 3),
-    ESTE("E", "Pereira", 4), OESTE("O", "Cali", 4),
-    MANIZALES("N", "Manizales", 4);
+    NORTE("N", "Armenia", 12),
+    SUR("S", "Armenia", 3),
+    ESTE("E", "Pereira", 4),
+    OESTE("O", "Cali", 4),
+    CALI("c", "CALI", 23);
+
     private String abreviacion;
     private String  Ciudad;
     private int numeroH;
